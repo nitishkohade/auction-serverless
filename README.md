@@ -4,5 +4,8 @@ sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-i
 cd YOUR_PROJECT_NAME
 npm install
 ```
-
-You are ready to go!
+sls --version
+aws configure
+sls deploy --state dev
+sls deploy -v
+sls remove -v
